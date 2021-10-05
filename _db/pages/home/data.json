@@ -271,15 +271,15 @@
                 }
               },
               {
-                "icon": "file-code-o",
-                "label": {
-                  "en-US": "Amazing page examples"
-                }
-              },
-              {
                 "icon": "dashboard",
                 "label": {
                   "en-US": "Dynamic components"
+                }
+              },
+              {
+                "icon": "file-code-o",
+                "label": {
+                  "en-US": "Amazing page examples"
                 }
               }
             ],
@@ -336,25 +336,6 @@
               },
               {
                 "image": {
-                  "url": "https://randomuser.me/api/portraits/women/67.jpg",
-                  "description": {
-                    "en-US": ""
-                  }
-                },
-                "name": "Jessie Wade",
-                "role": {
-                  "en-US": "Designer"
-                },
-                "contacts": [
-                  {
-                    "icon": "linkedin",
-                    "color": "#aed581",
-                    "route": "#"
-                  }
-                ]
-              },
-              {
-                "image": {
                   "url": "https://randomuser.me/api/portraits/women/45.jpg",
                   "description": {
                     "en-US": ""
@@ -368,6 +349,25 @@
                   {
                     "icon": "github",
                     "color": "#9e9e9e",
+                    "route": "#"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "url": "https://randomuser.me/api/portraits/women/67.jpg",
+                  "description": {
+                    "en-US": ""
+                  }
+                },
+                "name": "Jessie Wade",
+                "role": {
+                  "en-US": "Designer"
+                },
+                "contacts": [
+                  {
+                    "icon": "linkedin",
+                    "color": "#aed581",
                     "route": "#"
                   }
                 ]
