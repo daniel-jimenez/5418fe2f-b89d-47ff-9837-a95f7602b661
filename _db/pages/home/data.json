@@ -239,6 +239,61 @@
       }
     },
     {
+      "name": "features-slim",
+      "render": "server",
+      "frame": "<section class=\"relative py-20\">\n  <div name=\"inner-content\" class=\"container mx-auto px-4\"> \n    <%-content%>\n  </div>\n</section>",
+      "style": "",
+      "preprocess": "",
+      "postprocess": "",
+      "type": "template",
+      "config": {
+        "resource": {
+          "referenceid": "tailwind-kit.listws.app",
+          "name": "template/feature-slim"
+        },
+        "source": "values",
+        "config": {
+          "values": {
+            "color": "#f06292",
+            "icon": "rocket",
+            "title": {
+              "en-US": "A growing company"
+            },
+            "description": {
+              "en-US": "{\"ops\":[{\"attributes\":{\"color\":\"#718096\"},\"insert\":\"The extension comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.\"},{\"insert\":\"\\n\"}]}"
+            },
+            "align": "right",
+            "bullets": [
+              {
+                "icon": "heart",
+                "label": {
+                  "en-US": "Carefully crafted components"
+                }
+              },
+              {
+                "icon": "file-code-o",
+                "label": {
+                  "en-US": "Amazing page examples"
+                }
+              },
+              {
+                "icon": "dashboard",
+                "label": {
+                  "en-US": "Dynamic components"
+                }
+              }
+            ],
+            "image": {
+              "url": "https://tailwind-kit.pagews.app/_PWSR_/files/minimaps/galleries/430f0e12-8c8b-4bc8-91dc-fb45ae47e806-site-images/image/f880f5477edaa9a2d530060237566f66.jpg/xs.webp",
+              "description": {
+                "en-US": ""
+              }
+            }
+          }
+        }
+      }
+    },
+    {
       "name": "team",
       "render": "server",
       "frame": "<div class=\"container mx-auto px-4 bg-gray-300 my-4\">\n  <%-content%>\n</div>",
@@ -342,61 +397,6 @@
                 ]
               }
             ]
-          }
-        }
-      }
-    },
-    {
-      "name": "features-slim",
-      "render": "server",
-      "frame": "<section class=\"relative py-20\">\n  <div name=\"inner-content\" class=\"container mx-auto px-4\"> \n    <%-content%>\n  </div>\n</section>",
-      "style": "",
-      "preprocess": "",
-      "postprocess": "",
-      "type": "template",
-      "config": {
-        "resource": {
-          "referenceid": "tailwind-kit.listws.app",
-          "name": "template/feature-slim"
-        },
-        "source": "values",
-        "config": {
-          "values": {
-            "color": "#f06292",
-            "icon": "rocket",
-            "title": {
-              "en-US": "A growing company"
-            },
-            "description": {
-              "en-US": "{\"ops\":[{\"attributes\":{\"color\":\"#718096\"},\"insert\":\"The extension comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.\"},{\"insert\":\"\\n\"}]}"
-            },
-            "align": "right",
-            "bullets": [
-              {
-                "icon": "heart",
-                "label": {
-                  "en-US": "Carefully crafted components"
-                }
-              },
-              {
-                "icon": "file-code-o",
-                "label": {
-                  "en-US": "Amazing page examples"
-                }
-              },
-              {
-                "icon": "dashboard",
-                "label": {
-                  "en-US": "Dynamic components"
-                }
-              }
-            ],
-            "image": {
-              "url": "https://tailwind-kit.pagews.app/_PWSR_/files/minimaps/galleries/430f0e12-8c8b-4bc8-91dc-fb45ae47e806-site-images/image/f880f5477edaa9a2d530060237566f66.jpg/xs.webp",
-              "description": {
-                "en-US": ""
-              }
-            }
           }
         }
       }
